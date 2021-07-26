@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #B05B3B;
+  width:100%;
+  height:20vh;
+
+}
+nav{
+  text-align: center;
+  padding: 3% 5%;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-family: "Montserrat-Black";
+}
+main{
+  margin-top: 0;
+  width:100%;
+  height: 80vh;
+  background-color: #F5FDB0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place{
+  width:30%;
+  height: 500px;
+  margin: 6px;
+  background-color: #fff;
+}
+
+.img{
+  height: 250px;
+  background-size: cover;
+}
+.place:nth-child(1)>.img{
+  background-image: url("https://lp-cms-production.imgix.net/2019-06/iStock_000026994380XLarge.jpg");
+}
+.place:nth-child(2)>.img{
+  background-image: url("https://cdn.britannica.com/53/176353-050-5B854179/Harmandir-Sahib-Amritsar-Punjab-India.jpg");
+}
+.place:nth-child(3)>.img{
+  background-image: url("https://www.holidify.com/images/bgImages/HIMACHAL-PRADESH.jpg");
+}
+.place:nth-child(4)>.img{
+  background-image: url("https://static.toiimg.com/thumb/76405061/kerala.jpg?width=1200&height=900");
+}
+
+.details{
+  line-height: 1.5;
+  word-spacing: 1.5px;
+  padding: 5%;
+}
